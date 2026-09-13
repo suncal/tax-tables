@@ -143,6 +143,13 @@
   "highRate": 0.37,
   "highThreshold": 1000000
  },
+ "ctc": 2200,
+ "odc": 500,
+ "futa": {
+  "rate": 0.006,
+  "base": 7000
+ },
+ "householdThreshold": 3000,
  "k401Limit": 24500,
  "k401Catchup": 8000,
  "hsaLimit": {
