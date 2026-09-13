@@ -1,25 +1,25 @@
 city,state,combined_rate
 New York City,NY,8.875
-Los Angeles,CA,9.5
-Chicago,IL,10.25
+Los Angeles,CA,9.75
+Chicago,IL,10.5
 Houston,TX,8.25
 Phoenix,AZ,8.6
 Philadelphia,PA,8.0
 San Antonio,TX,8.25
 San Diego,CA,7.75
 Dallas,TX,8.25
-San Jose,CA,9.375
+San Jose,CA,10.0
 Austin,TX,8.25
 Jacksonville,FL,7.5
 San Francisco,CA,8.625
-Columbus,OH,7.5
-Charlotte,NC,7.25
+Columbus,OH,8.0
+Charlotte,NC,8.25
 Indianapolis,IN,7.0
-Seattle,WA,10.35
+Seattle,WA,10.55
 Denver,CO,8.81
 "Washington, DC",DC,6.0
 Boston,MA,6.25
-Nashville,TN,9.75
+Nashville,TN,9.25
 Detroit,MI,6.0
 Portland,OR,0
 Las Vegas,NV,8.375
