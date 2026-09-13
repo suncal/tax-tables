@@ -1,7 +1,7 @@
 state,name,state_rate,avg_local_rate,combined_rate,official_lookup,local_rate_source
-AK,Alaska,0,1.16,1.16,https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor/AlaskaTaxableDatabase.aspx,"https://arsstc.org/business-sellers/tax-rates/ (Alaska Remote Seller Sales Tax Commission rate sheet with ZIP codes, Sept 1 2026; no state sales tax)"
+AK,Alaska,0,1.17,1.17,https://www.commerce.alaska.gov/web/dcra/OfficeoftheStateAssessor/AlaskaTaxableDatabase.aspx,"https://arsstc.org/business-sellers/tax-rates/ (Alaska Remote Seller Sales Tax Commission rate sheet with ZIP codes, Sept 1 2026; no state sales tax)"
 AL,Alabama,4.0,4.49,8.49,https://www.revenue.alabama.gov/sales-use/tax-rates/,"https://www.revenue.alabama.gov/sales-use/local-cities-and-counties-tax-rates-text-file/ (taxrates_current.csv, ALDOR local rate file)"
-AR,Arkansas,6.5,2.49,8.99,https://www.dfa.arkansas.gov/excise-tax/sales-and-use-tax/local-sales-and-use-tax-information/,https://www.streamlinedsalestax.org/ratesandboundry/Rates/ARR2026Q4AUG28.csv (state's Streamlined Sales Tax rate file)
+AR,Arkansas,6.5,2.5,9.0,https://www.dfa.arkansas.gov/excise-tax/sales-and-use-tax/local-sales-and-use-tax-information/,https://www.streamlinedsalestax.org/ratesandboundry/Rates/ARR2026Q4AUG28.csv (state's Streamlined Sales Tax rate file)
 AZ,Arizona,5.6,2.69,8.29,https://azdor.gov/transaction-privilege-tax/tax-rate-table,"https://azdor.gov/transaction-privilege-tax/tax-rate-table (TPT_RATETABLE_ALL csv, business code 017 Retail: county rows carry state+county, city rows the city rate)"
 CA,California,7.25,1.72,8.97,https://www.cdtfa.ca.gov/taxes-and-fees/rates.aspx,https://www.cdtfa.ca.gov/dataportal/dataset.htm?url=SalesTaxRates (CDTFA Effective Sales and Use Tax Rates)
 CO,Colorado,2.9,4.16,7.06,https://tax.colorado.gov/sales-tax-rate-lookup,"https://data.colorado.gov (DOR datasets h5yt-egtp county rates, wx84-he7r state-collected city rates, nd6a-59yu home-rule city rates) + RTD/SCFD 1.1% and PPRTA 1% districts"
@@ -15,7 +15,7 @@ IA,Iowa,6.0,1.0,7.0,https://tax.iowa.gov/,https://www.streamlinedsalestax.org/ra
 ID,Idaho,6.0,0.02,6.02,https://tax.idaho.gov/taxes/sales-use/,"https://tax.idaho.gov/taxes/sales-use/sales-tax/local-sales-tax/city-sales-tax/ (resort-city local option taxes on general retail sales, per each city's ordinance)"
 IL,Illinois,6.25,2.64,8.89,https://mytax.illinois.gov/_/,"https://tax.illinois.gov/research/taxrates/sales-tax-rate-machine-readable-files.html (county/municipality machine-readable file, ordmache-current.txt)"
 IN,Indiana,7.0,0,7.0,,no local sales taxes (state statute)
-KS,Kansas,6.5,2.13,8.63,https://www.ksrevenue.gov/,https://www.streamlinedsalestax.org/ratesandboundry/Rates/KSR2026Q4AUG19.zip (state's Streamlined Sales Tax rate file)
+KS,Kansas,6.5,2.14,8.64,https://www.ksrevenue.gov/,https://www.streamlinedsalestax.org/ratesandboundry/Rates/KSR2026Q4AUG19.zip (state's Streamlined Sales Tax rate file)
 KY,Kentucky,6.0,0,6.0,,no local sales taxes (state statute)
 LA,Louisiana,5.0,4.85,9.85,https://revenue.louisiana.gov/SalesTax,"https://lataonline.org/for-taxpayers/city-to-parish-index/ (Louisiana Association of Tax Administrators parish rate tables, 'Comb. Local Rate' column of each parish's current table)"
 MA,Massachusetts,6.25,0,6.25,,no local sales taxes (state statute)
@@ -23,10 +23,10 @@ MD,Maryland,6.0,0,6.0,,no local sales taxes (state statute)
 ME,Maine,5.5,0,5.5,,no local sales taxes (state statute)
 MI,Michigan,6.0,0,6.0,,no local sales taxes (state statute)
 MN,Minnesota,6.875,1.28,8.15,https://www.revenue.state.mn.us/sales-tax-rate-calculator,https://www.streamlinedsalestax.org/ratesandboundry/Rates/MNR2026Q4AUG18.zip (Streamlined Sales Tax rate file) + Metro Area 1% and Hennepin 0.5% transit districts from DOR's Local Sales and Use Tax guide
-MO,Missouri,4.225,3.65,7.88,https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/,"https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/2026/ (Sales and Use Tax Rate Tables, July 2026 xlsx; base jurisdiction rows without CID/TDD districts)"
+MO,Missouri,4.225,3.66,7.88,https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/,"https://dor.mo.gov/taxation/business/tax-types/sales-use/rate-tables/2026/ (Sales and Use Tax Rate Tables, July 2026 xlsx; base jurisdiction rows without CID/TDD districts)"
 MS,Mississippi,7.0,0.05,7.05,https://www.dor.ms.gov/business/sales-and-use-tax,"https://www.dor.ms.gov/business/sales-use-tax (Jackson 1% special sales tax, Tupelo 0.25%; no county sales taxes)"
 MT,Montana,0,0,0,,no local sales taxes (state statute)
-NC,North Carolina,4.75,2.35,7.1,https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates,"https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates (Total Current S&U Tax Rates CSV, 7-1-2026)"
+NC,North Carolina,4.75,2.36,7.11,https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates,"https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-rates/current-sales-and-use-tax-rates (Total Current S&U Tax Rates CSV, 7-1-2026)"
 ND,North Dakota,5.0,2.03,7.03,https://www.tax.nd.gov/business/sales-and-use-tax,https://www.streamlinedsalestax.org/ratesandboundry/Rates/NDR2026Q4AUG14.zip (state's Streamlined Sales Tax rate file)
 NE,Nebraska,5.5,1.22,6.72,https://revenue.nebraska.gov/,https://www.streamlinedsalestax.org/ratesandboundry/Rates/NER2026Q4AUG21.zip (state's Streamlined Sales Tax rate file)
 NH,New Hampshire,0,0,0,,no local sales taxes (state statute)
