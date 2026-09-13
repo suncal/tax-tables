@@ -12,13 +12,18 @@ Canonical page, file descriptions and update log: **https://paysums.com/open-dat
 | `us-federal-2026.json` | Brackets, standard deduction, FICA rates/wage base, 401(k)/HSA limits |
 | `us-state-income-tax-2026.csv` | All 50 states + DC: type, top rate, bracket count, standard deduction, exemption, as-of year, local-tax flag, source |
 | `us-states-2026.json` | Full state tables: brackets, deductions, credits, local taxes, payroll programs |
-| `us-sales-tax-by-state-2026.csv` | Statutory state rate and the state's official address-level lookup URL |
+| `us-sales-tax-by-state-2026.csv` | Statutory state rate, population-weighted average local rate (our computation, see below), combined rate, official lookup URL, source table used |
+| `us-local-sales-tax-averages-2026.json` | Average local rate per state with the method note and the exact official file used for each state |
 | `us-sales-tax-cities-2026.csv` | Combined rate in 40 major cities |
 | `vat-gst-rates-2026.csv` | Standard and reduced VAT/GST rates, 39 countries |
 | `mortgage-rates-weekly.csv` | Weekly 30- and 15-year fixed averages (Freddie Mac PMMS), last 104 weeks |
 | `uk|ca|au|in|de|fr-tax-2026.json` | Country data files: UK PAYE/NI, Canada federal+provincial/CPP/EI, Australia, India, Germany §32a/Sozialversicherung, France cotisations/barème |
 
 `brackets` are arrays of `[upper_bound, rate]`, `null` = top band. Every file carries its official source and as-of year.
+
+## Average local sales tax rates
+
+Thirty-eight states let counties, cities or districts add their own sales tax. The `avg_local_rate` column is computed by us, not copied: every incorporated city gets the local rate its state revenue department publishes for it, the unincorporated remainder of each county gets the county rate, and rates are weighted by the Census Bureau's Vintage 2024 sub-county population estimates (SUB-EST2024). Rate tables are the states' own files (Streamlined Sales Tax rate files, comptroller/DOR downloads, county rate charts) — named per state in the JSON file. Small special districts that the rate tables cannot place geographically are omitted except where the state's source line says otherwise. Recomputed quarterly.
 
 ## How it stays current
 
