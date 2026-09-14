@@ -2,6 +2,20 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-09-14",
+   "area": "France",
+   "change": "The SMIC used by the French calculator is now the 1 June 2026 rate: \u20ac12.31 gross an hour, \u20ac1,867.02 gross a month for 35 hours, up from \u20ac12.02 and \u20ac1,823.03 set on 1 January 2026. A single non-cadre on the SMIC takes home \u20ac1,455.99 a month before income tax, and still pays no income tax.",
+   "source": "Arr\u00eat\u00e9 du 22 mai 2026 relatif au rel\u00e8vement du salaire minimum de croissance (JORF); URSSAF \u00abMontant du Smic\u00bb; travail-emploi.gouv.fr",
+   "effective": "2026-06-01"
+  },
+  {
+   "date": "2026-09-14",
+   "area": "US state income tax",
+   "change": "District of Columbia tables confirmed for 2026 and marked as such: the 4% / 6% / 6.5% / 8.5% / 9.25% / 9.75% / 10.75% brackets are unchanged from 2025, and the DC standard deduction follows the federal one at $16,100 single, $32,200 married, $24,150 head of household.",
+   "source": "DC Office of Tax and Revenue, 2026 D-40ES booklet and TY 2026 Pertinent Data Book",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-09-13",
    "area": "US sales tax",
    "change": "Average local sales tax rates for all 50 states + DC are now computed by paysums from each state's official rate tables (population-weighted, Census SUB-EST2024); the Tax Foundation figures were retired. Ten city rates corrected against official files: Nashville 9.25%, Los Angeles 9.75%, Chicago 10.5%, San Jose 10%, Seattle 10.55%, Columbus 8%, Charlotte 8.25%, Phoenix 9.1%, Salt Lake City 8.45%, Kansas City 8.975%.",

@@ -6,7 +6,7 @@ AZ,Arizona,flat,0.025,1,federal,,,2026,False,
 CA,California,progressive,0.133,10,5706,11412,,2026,False,"EDD 2026 Method B thresholds ÷ 1.1 (statutory rates); std $5,706/$11,412; exemption credit $153; SDI 1.3%"
 CO,Colorado,flat,0.044,1,federal,,,2026,False,
 CT,Connecticut,progressive,0.0699,7,,,,2026,False,
-DC,District of Columbia,progressive,0.1075,7,federal,,,2025,False,
+DC,District of Columbia,progressive,0.1075,7,federal,,,2026,False,
 DE,Delaware,progressive,0.066,7,3250,6500,,2025,True,
 FL,Florida,none,0,0,,,,2026,False,
 GA,Georgia,flat,0.0499,1,15000,30000,,2026,False,
