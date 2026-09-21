@@ -2,6 +2,13 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-09-21",
+   "area": "UK",
+   "change": "The National Insurance Lower Earnings Limit is now the 2026/27 figure: \u00a3129 a week, \u00a36,708 a year, up from \u00a3125 a week and \u00a36,500 a year in 2025/26. This is the threshold at which a year counts towards the State Pension and it sets the 'earnings at the LEL' box on a P60, so P60s produced by paysums now show the correct band. The primary threshold (\u00a312,570), the upper earnings limit (\u00a350,270), the 8% and 2% employee rates, the five student loan thresholds and the \u00a36,240\u2013\u00a350,270 auto-enrolment band are all unchanged.",
+   "source": "HMRC, 'Rates and thresholds for employers 2026 to 2027' (gov.uk) and booklet CA38, National Insurance contributions Tables A, D, F, H, J, L, M, N, V and Z, 2026 to 2027",
+   "effective": "2026-04-06"
+  },
+  {
    "date": "2026-09-14",
    "area": "France",
    "change": "The SMIC used by the French calculator is now the 1 June 2026 rate: \u20ac12.31 gross an hour, \u20ac1,867.02 gross a month for 35 hours, up from \u20ac12.02 and \u20ac1,823.03 set on 1 January 2026. A single non-cadre on the SMIC takes home \u20ac1,455.99 a month before income tax, and still pays no income tax.",
