@@ -2,6 +2,27 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-09-28",
+   "area": "US sales tax",
+   "change": "Los Angeles goes from 9.75% to 10.25%, the new countywide Los Angeles County rate after Measure ER. No other city in the table changes this quarter: Ohio's only October change is Warren County, which covers none of them, Pennsylvania's Act 21 of 2026 changes where local tax is sourced rather than the Philadelphia or Allegheny rates, and Washington DC stays at 6% because its scheduled rise to 7% was deferred.",
+   "source": "California Department of Tax and Fee Administration Special Notice L-1037 (August 2026)",
+   "effective": "2026-10-01"
+  },
+  {
+   "date": "2026-09-28",
+   "area": "US state income tax",
+   "change": "Arkansas's top individual income tax rate falls from 3.9% to 3.7%. On $75,000 of income a single filer's Arkansas tax drops from $2,712.27 to $2,576.41.",
+   "source": "Arkansas Act 2 of the First Extraordinary Session of 2026; Arkansas Department of Finance and Administration, Individual Income Tax 'What's New?'",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-09-28",
+   "area": "Canada",
+   "change": "Provincial figures that had been carried forward at the federal 2.0% indexing factor are now each province's own published 2026 numbers. Quebec brackets $54,495/$108,985/$132,620 become $54,345/$108,680/$132,245 and its basic personal amount $19,004 becomes $18,952 (indexation 2.05%). Nova Scotia brackets $31,117/$62,235/$94,860/$153,000 become $30,995/$61,991/$97,417/$157,124 and its basic personal amount $11,979 becomes $11,932 (indexation 1.6%). Newfoundland and Labrador brackets $45,076/$90,150/$160,948/$225,328/$287,858/$575,717/$1,151,435 become $44,678/$89,354/$159,528/$223,340/$285,319/$570,638/$1,141,275 (indexation 1.1%) and its basic personal amount $11,288 becomes $13,094, the blended figure for the 2026 tax year after the province raised it to $15,000 from 1 July. Manitoba brackets $48,516/$103,224 become $47,000/$100,000 and its basic personal amount $16,288 becomes $15,780, both frozen at 2024 levels. Saskatchewan's basic personal amount $19,371 becomes $20,381.",
+   "source": "Revenu Quebec 'Taux d'imposition' and quebec.ca 2026 indexation; Nova Scotia 'Personal income tax rates and indexation' (OIC 2025-274); CRA T4032NL-July and Newfoundland and Labrador Budget 2026; Manitoba Budget 2025 Information Bulletin 125 and CRA T4032MB; Saskatchewan '2026 Personal Income Tax Structure'",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-09-21",
    "area": "UK",
    "change": "The National Insurance Lower Earnings Limit is now the 2026/27 figure: \u00a3129 a week, \u00a36,708 a year, up from \u00a3125 a week and \u00a36,500 a year in 2025/26. This is the threshold at which a year counts towards the State Pension and it sets the 'earnings at the LEL' box on a P60, so P60s produced by paysums now show the correct band. The primary threshold (\u00a312,570), the upper earnings limit (\u00a350,270), the 8% and 2% employee rates, the five student loan thresholds and the \u00a36,240\u2013\u00a350,270 auto-enrolment band are all unchanged.",

@@ -1,7 +1,7 @@
 state,name,type,top_rate,brackets,std_deduction_single,std_deduction_married,personal_exemption,as_of,has_local_income_tax,source
 AK,Alaska,none,0,0,,,,2026,False,
 AL,Alabama,progressive,0.05,3,,,1500,2026,True,
-AR,Arkansas,progressive,0.039,2,2470,4940,,2026,False,
+AR,Arkansas,progressive,0.037,2,2470,4940,,2026,False,
 AZ,Arizona,flat,0.025,1,federal,,,2026,False,
 CA,California,progressive,0.133,10,5706,11412,,2026,False,"EDD 2026 Method B thresholds ÷ 1.1 (statutory rates); std $5,706/$11,412; exemption credit $153; SDI 1.3%"
 CO,Colorado,flat,0.044,1,federal,,,2026,False,
