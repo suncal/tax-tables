@@ -2,6 +2,41 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "North Dakota's 2026 brackets replace the 2025 ones that were still in use. The income at which North Dakota tax starts rises from $48,475 to $49,575 for a single filer, from $80,975 to $82,800 for a married couple filing jointly and from $64,850 to $66,400 for a head of household, and the 2.5% top rate now starts at $250,400, $304,850 and $277,600 respectively. On $75,000 a single filer's North Dakota tax falls from $203.29 to $181.84.",
+   "source": "North Dakota Office of State Tax Commissioner, 2026 Forms ND-1 and ND-EZ Tax Rate Schedules, printed on 2026 Form ND-1ES (SFN 28709, 12-2025)",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "Kansas head-of-household filers now get the additional $2,320 exemption the state allows them, so their exemption allowance is $11,480 rather than $9,160. On $75,000 a head-of-household filer's Kansas tax falls from $3,241.63 to $3,112.17. Kansas rates (5.20%, then 5.58% above $23,000, or above $46,000 filing jointly) and standard deductions ($3,605 single, $8,240 joint, $6,180 head of household, $4,120 married filing separately) are confirmed unchanged for 2026.",
+   "source": "K.S.A. 79-32,121(b)(1) as amended by 2025 House Bill 2231; Kansas Department of Revenue Notice 25-07 and the Form K-40 instructions; 2026 Form K-40ES",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "Maryland's standard deduction is now the flat $3,350 (single, married filing separately or dependent) and $6,700 (joint, head of household or qualifying surviving spouse) that the state actually allows; it had been modelled here as 15% of income between a floor and a cap, a formula the 2025 Budget Reconciliation and Financing Act repealed. That only changes the answer on lower incomes, where 15% of income fell below the cap: on $20,000 a single filer in Baltimore now pays $586.38 of Maryland tax rather than $603.00, and anyone earning above about $22,350 is unaffected. Maryland county tax is also now charged on Maryland taxable net income instead of on gross wages, which is how the state computes it, so on $75,000 a single filer in Baltimore pays $2,190.40 of county tax rather than $2,400. Anne Arundel County (2.70%/2.94%/3.20%) and Frederick County (2.25%/2.75%/2.96%/3.20%) now use the graduated rates they really levy instead of a single middle rate of 2.81% and 2.96%, which on $75,000 takes Anne Arundel's county tax from $2,107.50 to $1,892.43 and Frederick's from $2,220.00 to $1,796.12. Maryland's state brackets and its $3,200 exemption are confirmed unchanged for 2026.",
+   "source": "Maryland Comptroller, Withholding Tax Facts January 2026 - December 2026 (COM RAD 098 rev. 12/25); Maryland Tax Alert on the Budget Reconciliation and Financing Act of 2025 (Ch. 604), revised 22 December 2025; 2025 Form 502 resident booklet",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "US state income tax",
+   "change": "New Mexico's 2026 brackets are confirmed unchanged and the table is now marked as a 2026 one: 1.5%, 3.2%, 4.3%, 4.7%, 4.9% and 5.9% at $5,500, $16,500, $33,500, $66,500 and $210,000 for a single filer, and at $8,000, $25,000, $50,000, $100,000 and $315,000 for joint and head-of-household filers. No figure changed.",
+   "source": "New Mexico Taxation and Revenue Department, FYI-104 'New Mexico Withholding Tax' (Rev. 11/2025), tables effective 1 January 2026",
+   "effective": "2026-01-01"
+  },
+  {
+   "date": "2026-10-05",
+   "area": "Canada",
+   "change": "Three Canadian figures corrected against the Canada Revenue Agency's own 2026 publications. The Canada employment amount is $1,501, not $1,507, which raises federal tax by $0.84 at every income above that amount. Prince Edward Island's four lower bracket thresholds, which had been carried forward at the federal 2.0% indexing factor, become $33,928, $65,820, $106,890 and $142,520 - the 2025 figures indexed by PEI's own 1.8% factor - so on $75,000 a PEI filer's provincial tax rises from $7,049.47 to $7,056.17. New Brunswick's first threshold is $52,333 rather than $52,332. The federal brackets, the $16,452 basic personal amount, CPP and CPP2, and EI are all confirmed unchanged for 2026.",
+   "source": "Canada Revenue Agency: 'Indexation adjustment for personal income tax and benefit amounts'; T4127 Payroll Deductions Formulas, 123rd edition (effective 1 July 2026); T4032PE and T4032NB Payroll Deductions Tables, Chart 2",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-09-28",
    "area": "US sales tax",
    "change": "Los Angeles goes from 9.75% to 10.25%, the new countywide Los Angeles County rate after Measure ER. No other city in the table changes this quarter: Ohio's only October change is Warren County, which covers none of them, Pennsylvania's Act 21 of 2026 changes where local tax is sourced rather than the Philadelphia or Allegheny rates, and Washington DC stays at 6% because its scheduled rise to 7% was deferred.",

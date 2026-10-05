@@ -762,7 +762,7 @@
  "KS": {
   "name": "Kansas",
   "slug": "kansas",
-  "asof": 2025,
+  "asof": 2026,
   "brackets": {
    "single": [
     [
@@ -794,7 +794,7 @@
   "exemption": {
    "single": 9160,
    "married": 18320,
-   "head": 9160,
+   "head": 11480,
    "separate": 9160
   }
  },
@@ -1022,6 +1022,12 @@
     ]
    ]
   },
+  "std": {
+   "single": 3350,
+   "married": 6700,
+   "head": 6700,
+   "separate": 3350
+  },
   "special": "md",
   "localDefault": "baltimore",
   "localLabel": "County",
@@ -1029,52 +1035,206 @@
    {
     "code": "baltimore",
     "name": "Baltimore City / County 3.2%",
-    "rate": 0.032
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "montgomery",
     "name": "Montgomery County 3.2%",
-    "rate": 0.032
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "princegeorges",
     "name": "Prince George's County 3.2%",
-    "rate": 0.032
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "howard",
     "name": "Howard County 3.2%",
-    "rate": 0.032
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "annearundel",
-    "name": "Anne Arundel County 2.81%",
-    "rate": 0.0281
+    "name": "Anne Arundel County 2.7-3.2%",
+    "brackets": {
+     "single": [
+      [
+       50000,
+       0.027
+      ],
+      [
+       400000,
+       0.0294
+      ],
+      [
+       null,
+       0.032
+      ]
+     ],
+     "married": [
+      [
+       75000,
+       0.027
+      ],
+      [
+       480000,
+       0.0294
+      ],
+      [
+       null,
+       0.032
+      ]
+     ],
+     "head": [
+      [
+       75000,
+       0.027
+      ],
+      [
+       480000,
+       0.0294
+      ],
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "frederick",
-    "name": "Frederick County 2.96%",
-    "rate": 0.0296
+    "name": "Frederick County 2.25-3.2%",
+    "brackets": {
+     "single": [
+      [
+       25000,
+       0.0225
+      ],
+      [
+       50000,
+       0.0275
+      ],
+      [
+       150000,
+       0.0296
+      ],
+      [
+       null,
+       0.032
+      ]
+     ],
+     "married": [
+      [
+       25000,
+       0.0225
+      ],
+      [
+       100000,
+       0.0275
+      ],
+      [
+       250000,
+       0.0296
+      ],
+      [
+       null,
+       0.032
+      ]
+     ],
+     "head": [
+      [
+       25000,
+       0.0225
+      ],
+      [
+       100000,
+       0.0275
+      ],
+      [
+       250000,
+       0.0296
+      ],
+      [
+       null,
+       0.032
+      ]
+     ]
+    }
    },
    {
     "code": "harford",
     "name": "Harford County 3.06%",
-    "rate": 0.0306
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.0306
+      ]
+     ]
+    }
    },
    {
     "code": "carroll",
     "name": "Carroll County 3.03%",
-    "rate": 0.0303
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.0303
+      ]
+     ]
+    }
    },
    {
     "code": "worcester",
     "name": "Worcester County 2.25%",
-    "rate": 0.0225
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.0225
+      ]
+     ]
+    }
    },
    {
     "code": "talbot",
     "name": "Talbot County 2.4%",
-    "rate": 0.024
+    "brackets": {
+     "single": [
+      [
+       null,
+       0.024
+      ]
+     ]
+    }
    }
   ]
  },
@@ -1553,7 +1713,7 @@
  "NM": {
   "name": "New Mexico",
   "slug": "new-mexico",
-  "asof": 2025,
+  "asof": 2026,
   "brackets": {
    "single": [
     [
@@ -1857,15 +2017,15 @@
  "ND": {
   "name": "North Dakota",
   "slug": "north-dakota",
-  "asof": 2025,
+  "asof": 2026,
   "brackets": {
    "single": [
     [
-     48475,
+     49575,
      0
     ],
     [
-     244825,
+     250400,
      0.0195
     ],
     [
@@ -1875,11 +2035,11 @@
    ],
    "married": [
     [
-     80975,
+     82800,
      0
     ],
     [
-     298075,
+     304850,
      0.0195
     ],
     [
@@ -1889,11 +2049,11 @@
    ],
    "head": [
     [
-     64850,
+     66400,
      0
     ],
     [
-     271775,
+     277600,
      0.0195
     ],
     [
