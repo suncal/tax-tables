@@ -2,6 +2,13 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-10-07",
+   "area": "US state payroll deductions",
+   "change": "Colorado's FAMLI premium falls for 2026 and the employee share with it. The total premium drops from 0.90% to 0.88% of wages, split evenly, so the maximum an employer may deduct from an employee goes from 0.45% to 0.44%. The wage base stays tied to the Social Security cap of $184,500. On $75,000 the employee's FAMLI deduction falls from $337.50 to $330.00 a year.",
+   "source": "Colorado Department of Labor and Employment, Family & Medical Leave Insurance Division, FAMLI Business Brief, December 2025 \u2014 \"the rate will decrease to 0.88%, with employers allowed to deduct up to 0.44% from employee wages\"",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-10-05",
    "area": "US state income tax",
    "change": "North Dakota's 2026 brackets replace the 2025 ones that were still in use. The income at which North Dakota tax starts rises from $48,475 to $49,575 for a single filer, from $80,975 to $82,800 for a married couple filing jointly and from $64,850 to $66,400 for a head of household, and the 2.5% top rate now starts at $250,400, $304,850 and $277,600 respectively. On $75,000 a single filer's North Dakota tax falls from $203.29 to $181.84.",
