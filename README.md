@@ -1,5 +1,7 @@
 # tax-tables — 2026 income tax, sales tax, VAT and mortgage-rate data
 
+[![Live demo](https://img.shields.io/badge/live-demo-0E6B52)](https://paysums.com/open-data/) [![Stars](https://img.shields.io/github/stars/suncal/tax-tables?style=social)](https://github.com/suncal/tax-tables/stargazers)
+
 Machine-readable tax tables behind the calculators at **[paysums.com](https://paysums.com/)**, republished here for developers, analysts and journalists.
 
 Canonical page, file descriptions and update log: **https://paysums.com/open-data/**
@@ -38,3 +40,9 @@ The figures themselves are government publications: US federal and state tax tab
 `mortgage-rates-weekly.csv` reproduces Freddie Mac Primary Mortgage Market Survey averages, which Freddie Mac makes available "with proper attribution" — credit *Source: Freddie Mac* when you reuse it; it is not part of the CC BY grant.
 
 Statutory tables, not tax advice.
+
+---
+
+**If this is useful to you, a ⭐ on the repo helps other people find it.** Issues and pull requests are welcome.
+
+Built by [Priyankar "Sunny" Chakraborty](https://github.com/suncal) · [everbuiltstudio.com](https://everbuiltstudio.com)
