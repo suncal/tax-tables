@@ -2,6 +2,27 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-10-12",
+   "area": "US sales tax",
+   "change": "Denver's combined sales tax rate is corrected from 8.81% to 9.15%. The city's own rate is 5.15%, not the 4.81% this site had been using, so on a $100 purchase the tax is $9.15 rather than $8.81.",
+   "source": "City and County of Denver Tax Guide Topic No. 70 (2026) and the Denver Combined Tax Rates sheet: 5.15% Denver + 2.90% state + 1.00% RTD + 0.10% Cultural Facilities District",
+   "effective": "2025-01-01"
+  },
+  {
+   "date": "2026-10-12",
+   "area": "US sales tax",
+   "change": "Nashville's combined sales tax rate is corrected from 9.25% to 9.75%. Davidson County voters approved a 0.5% transit surcharge that raised the local option rate from 2.25% to 2.75% on top of Tennessee's 7% state rate.",
+   "source": "Tennessee Department of Revenue Sales and Use Tax Notice #24-11, 'Change of Local Tax Rate: Davidson County'",
+   "effective": "2025-02-01"
+  },
+  {
+   "date": "2026-10-12",
+   "area": "VAT/GST",
+   "change": "UK VAT on domestic electricity in Great Britain is temporarily zero-rated instead of charged at the 5% reduced rate. Domestic gas stays at 5%, as does electricity in Northern Ireland, and the 20% standard rate is unchanged.",
+   "source": "The Value Added Tax (Supplies of Domestic Electricity) Order 2026 (SI 2026/987); HMRC Revenue and Customs Brief 10 (2026)",
+   "effective": "2026-10-01 to 2027-03-31"
+  },
+  {
    "date": "2026-10-07",
    "area": "US state payroll deductions",
    "change": "Colorado's FAMLI premium falls for 2026 and the employee share with it. The total premium drops from 0.90% to 0.88% of wages, split evenly, so the maximum an employer may deduct from an employee goes from 0.45% to 0.44%. The wage base stays tied to the Social Security cap of $184,500. On $75,000 the employee's FAMLI deduction falls from $337.50 to $330.00 a year.",
