@@ -2406,20 +2406,39 @@
   "brackets": {
    "single": [
     [
-     3640,
-     0
-    ],
-    [
-     18230,
-     0.03
+     30000,
+     0.0199
     ],
     [
      null,
-     0.06
+     0.0521
     ]
    ]
   },
-  "std": "federal"
+  "special": "sc",
+  "sciad": {
+   "single": {
+    "amount": 15000,
+    "start": 40000,
+    "span": 55000
+   },
+   "married": {
+    "amount": 30000,
+    "start": 80000,
+    "span": 110000
+   },
+   "head": {
+    "amount": 22500,
+    "start": 60000,
+    "span": 82500
+   },
+   "separate": {
+    "amount": 15000,
+    "start": 40000,
+    "span": 55000
+   }
+  },
+  "withholdingNote": "From tax year 2026 South Carolina starts from federal AGI and allows the South Carolina Income Adjusted Deduction in place of the federal standard deduction: $15,000 single, $30,000 married filing jointly, $22,500 head of household, phased out between $40,000 and $95,000 of AGI ($80,000-$190,000 married, $60,000-$142,500 head of household)."
  },
  "SD": {
   "name": "South Dakota",
