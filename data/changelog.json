@@ -2,6 +2,13 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-11-02",
+   "area": "US state income tax",
+   "change": "Maryland now uses its 2026 tables: the Comptroller has published tax-year-2026 return figures, which confirm the standard deduction unchanged at $3,350 for single filers and $6,700 married filing jointly or head of household, the personal exemption unchanged at $3,200 (phasing to $1,600, then $800, then nil above $100,000, $125,000 and $150,000 of federal AGI for single filers), and both state rate schedules and every county rate unchanged, so no Maryland figure moves and the Maryland pages no longer carry the note that the state had not yet published 2026 tables.",
+   "source": "Maryland Comptroller, tax-year-2026 Payment Voucher Worksheet for Estimated Tax and Extension Payments (PVW), marylandcomptroller.gov",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-10-19",
    "area": "US state income tax",
    "change": "South Carolina's income tax is rebuilt for Act 110 of 2026, which applies from the 2026 tax year: the 0% / 3% / 6% brackets at $3,640 and $18,230 become two - 1.99% on taxable income below $30,000 and 5.21% at $30,000 or more - and the federal standard deduction no longer applies, replaced by the new South Carolina Income Adjusted Deduction of $15,000 for single filers, $30,000 married filing jointly and $22,500 head of household, which phases out between $40,000 and $95,000 of federal AGI ($80,000 to $190,000 married, $60,000 to $142,500 head of household). On $75,000 a single filer's South Carolina tax falls from $2,878 to $2,657.",
