@@ -2,6 +2,13 @@
  "note": "Dated log of changes to the tax tables and reference data behind paysums. Appended by the weekly cloud routine (every change cites its source) and by hand for structural additions. Automated weekly/yearly refreshes (mortgage rates, FX, rents, home values, local sales tax averages) are listed once with their schedule, not per run.",
  "entries": [
   {
+   "date": "2026-11-09",
+   "area": "US state income tax",
+   "change": "Delaware's tables are now marked as 2026. Every Delaware figure is confirmed unchanged on the state's own tax-year-2026 publication: the rate schedule 0% / 2.2% / 3.9% / 4.8% / 5.2% / 5.55% / 6.6% over $2,000 / $5,000 / $10,000 / $20,000 / $25,000 / $60,000, the standard deduction $3,250 (single, head of household or married filing separately) and $6,500 (married filing jointly), and the $110 personal credit for each exemption. The bracket restructure that would have added rates above $125,000 was never enacted. Delaware was the last state still on a 2025 table, so all 50 states and the District of Columbia are now on their 2026 tables.",
+   "source": "Delaware Division of Revenue, Declaration of Estimated Income Tax for Individuals 2026 (Form PIT-EST instructions, rev. 11/10/25) and the Division's Tax Rate Changes page",
+   "effective": "2026-01-01"
+  },
+  {
    "date": "2026-11-02",
    "area": "US state income tax",
    "change": "Maryland now uses its 2026 tables: the Comptroller has published tax-year-2026 return figures, which confirm the standard deduction unchanged at $3,350 for single filers and $6,700 married filing jointly or head of household, the personal exemption unchanged at $3,200 (phasing to $1,600, then $800, then nil above $100,000, $125,000 and $150,000 of federal AGI for single filers), and both state rate schedules and every county rate unchanged, so no Maryland figure moves and the Maryland pages no longer carry the note that the state had not yet published 2026 tables.",
